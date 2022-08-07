@@ -23,15 +23,15 @@
             <p><?php echo $row['status']; ?></p>
           </div>
         </div>
-        <a href="php/logout.php?logout_id=<?php echo $row['unique_id']; ?>" class="logout">Logout</a>
+        <a href="php/logout.php?logout_id=<?php echo $row['unique_id']; ?>" class="logout">Kilépés</a>
       </header>
       <div class="search">
-        <span class="text">Select an user to start chat</span>
-        <input type="text" placeholder="Enter name to search...">
+        <span class="text">Válasszon ki egy felhasználót a csevegés indításához</span>
+        <input type="text" placeholder="Írja be a nevet a kereséshez...">
         <button><i class="fas fa-search"></i></button>
       </div>
       <div class="users-list">
-  
+          
       </div>
     </section>
   </div>
