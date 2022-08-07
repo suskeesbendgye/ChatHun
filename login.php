@@ -5,29 +5,27 @@
   }
 ?>
 
-<div style="background-image: url('php/images/wallpaper.png');">
-
 <?php include_once "header.php"; ?>
 <body>
   <div class="wrapper">
     <section class="form login">
-      <header>Jordan's Live Chat Application</header>
+      <header>Chat App</header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="field input">
-          <label>Email Address</label>
-          <input type="text" name="email" placeholder="Enter your email" required>
+          <label>Email Cím</label>
+          <input type="text" name="email" placeholder="Írd be az Email címed" required>
         </div>
         <div class="field input">
-          <label>Password</label>
-          <input type="password" name="password" placeholder="Enter your password" required>
+          <label>Jelszó</label>
+          <input type="password" name="password" placeholder="Írd be a jelszavad" required>
           <i class="fas fa-eye"></i>
         </div>
         <div class="field button">
-          <input type="submit" name="submit" value="Continue to Chat">
+          <input type="submit" name="submit" value="Tovább a Chatre">
         </div>
       </form>
-      <div class="link">Not yet signed up? <a href="index.php">Signup now</a></div>
+      <div class="link">Még nem regisztráltál? <a href="index.php">Regisztrálj most!</a></div>
     </section>
   </div>
   
